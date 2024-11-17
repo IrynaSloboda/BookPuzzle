@@ -1,0 +1,157 @@
+.navbar {
+    padding: 3px 0 3px 0;
+}
+
+.navbar-light {
+    background-color: #eceaea;
+}
+
+.logo-image {
+    width: 15%;
+}
+
+.navbar-dark {
+    background-color: #232323;
+}
+
+.navbar .container .bookpuzzle{
+    font-size: 1.3rem;
+    font-weight:bolder;
+    font-style: italic;
+    cursor: pointer;
+    margin-right: -5rem;
+    letter-spacing: 1px;
+}
+
+.navbar .container .bookpuzzle-light {
+    color: #000;
+}
+
+.navbar .container .bookpuzzle-dark {
+    color: #eceaea;
+}
+
+.navbar .container .theme-button {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.navbar .container .navbar-collapse form input{
+    border: 1px solid rgba(0, 0, 0, 0.125) !important;
+    background-color: #fff;
+    color: #000;
+    padding: 0.3rem 0.7rem;
+    border-radius: 20px;
+}
+
+.navbar-dark .container .navbar-collapse form input{
+    border: 1px solid rgba(193, 193, 193, 0.5) !important;
+    background-color: #000;
+    color: #eceaea;
+    padding: 0.3rem 0.7rem;
+    border-radius: 20px;
+}
+
+.navbar .container .navbar-collapse form input:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar .container .navbar-collapse form button{
+    background-color: #302769;
+    border-color: #302769;
+    border-radius: 15px;
+}
+
+.navbar .container .navbar-collapse form button:hover{
+    background-color: #86CEDA;
+    color: #000;
+}
+
+.navbar .container .navbar-collapse .new-product{
+    background-color: #302769;
+    border-radius: 20px;
+    border-color:  #302769;
+    width: 200px;
+    margin-top: 7px;
+}
+
+.navbar .container .navbar-collapse .give-product{
+    background-color: #302769;
+    border-radius: 20px;
+    border-color:  #302769;
+    width: 200px;
+    margin-top: 7px;
+}
+
+.navbar .container .navbar-collapse .new-product:hover{
+    background-color: #86CEDA;
+    color: #000;
+}
+
+.navbar .container .navbar-collapse .user-icon{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #302769;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar .container .navbar-collapse .user-icon:hover{
+    transform: scale(1.1);
+}
+
+.navbar .container .navbar-collapse .dropdown-toggle::after {
+    display: none;
+}
+
+.navbar-dark .container .navbar-collapse .dropdown-menu {
+    background-color: #232323;
+    color: #eceaea;
+    border-color: #767676;
+}
+
+.navbar-dark .container .navbar-collapse .dropdown-item {
+    color: #eceaea;
+}
+
+.navbar-dark .container .navbar-collapse .dropdown-item:hover {
+    background-color: #808080;
+}
+
+.navbar .container .navbar-collapse .login{
+    background-color: #302769;
+    width: 7vw;
+    border-radius: 8px;
+    margin-right: 1vw;
+    border-color: #302769;
+    border-radius: 20px;
+    margin: 5px 0;
+}
+
+.navbar .container .navbar-collapse .login:hover{
+    background-color: #86CEDA;
+    color: #000;
+}
+
+.navbar .container .navbar-collapse .signup{
+    background-color: #302769;
+    width: 10vw;
+    border-radius: 8px;
+    margin-right: 1vw;
+    border-color: #302769;
+    border-radius: 20px;
+    margin: 5px 0;
+}
+
+.navbar .container .navbar-collapse .signup:hover{
+    background-color: #86CEDA;
+    color: #000;
+}
+
+.brand-btn {
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,40 @@
+.footer{
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    width: 100%;
+}
+
+.footer-light{
+    background-color: #eceaea;
+}
+
+.footer-dark{
+    background-color: #232323;
+}
+
+.footer .container {
+    width: 75%;
+}
+
+.footer-text-light {
+    color: #000;
+}
+
+.footer-text-dark {
+    color: #eceaea;
+}
+
+.footer h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.footer-bookpuzzle-dark {
+    color: #eceaea;
+}
+
+.footer-bookpuzzle-light {
+    color: #000;
+}

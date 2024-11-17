@@ -1,0 +1,217 @@
+.editProduct-container{
+    min-height: calc(100vh - 34px);
+}
+
+.editProduct-container-dark {
+    background-color: #000;
+}
+
+.editProduct-container .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+
+.editProduct-container .container .card {
+    border: none;
+}
+
+.editProduct-container .container .card .card-body {
+    width: 900px;
+}
+
+.editProduct-container .container .card-dark {
+    background-color: inherit;
+    color: #eceaea;
+}
+
+.editProduct-container .container .card .heading {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.editProduct-container .container .card form label {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-right: 20px;
+    font-style: normal !important;
+    text-wrap: nowrap;
+}
+
+.editProduct-container .container .card form .img-preview {
+    width: 90%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+.editProduct-container .container .card form .remove-image {
+    background: #f44336;
+    border-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    width: 10vw;
+    padding: 8px;
+}
+
+.editProduct-container .container .card-dark .author {
+    border-bottom: 1px solid #eceaea !important;
+}
+
+.editProduct-container .container .card form .remove-image:hover {
+    background: #c9291e;
+}
+
+.editProduct-container .container .card form input[type="file"] {
+    width: 70%;
+    padding: 0.5rem;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    margin-top: 10px;
+}
+
+.editProduct-container .container .card-dark form input[type="file"] {
+    background-color: #000;
+    color: #eceaea;
+}
+
+.editProduct-container .container .card .form-label {
+    margin-top: 10px;
+}
+
+.editProduct-container .container .card .my-control {
+    width: 40%;
+    border-radius: 30px;
+}
+
+.editProduct-container .container .card .form-control {
+    border-radius: 30px;
+}
+
+.editProduct-container .container .card-dark .form-control {
+    background-color: #232323;
+    color: #eceaea;
+}
+
+.editProduct-container .container .card-dark input[type="file"].form-control::-webkit-file-upload-button {
+    background-color: #323232;
+    color: #eceaea;
+  }
+  
+.editProduct-container .container .card form .ck.ck-toolbar {
+    border-radius: 15px 15px 0 0;
+}
+
+.editProduct-container .container .card-dark form .ck-sticky-panel {
+    background-color: #232323;
+    color: #eceaea;
+}
+
+.editProduct-container .container .card-dark .ck.ck-toolbar {
+    background-color: black;
+    color: white;
+}
+  
+.editProduct-container .container .card-dark .ck.ck-toolbar .ck-button {
+    color: white;
+    background-color: #000;
+}
+  
+.editProduct-container .container .card-dark .ck.ck-dropdown .ck-dropdown__panel {
+    background-color: black;
+    color: white;
+}
+  
+.editProduct-container .container .card form .ck-editor__editable {
+    min-height: 25vh;
+    border-radius: 0 0 15px 15px;
+}
+
+.editProduct-container .container .card-dark form .ck-editor__editable {
+    background-color: #232323;
+    color: #eceaea;
+}
+
+.editProduct-container .container .card form input[type="text"] {
+    color: #000;
+    font-size: 2rem;
+    border: none;
+    margin-top: 2rem;
+}
+
+.editProduct-container .container .card-dark form input[type="text"] {
+    color: #eceaea;
+    background-color: #232323;
+}
+
+.editProduct-container .container .card form input[type="text"]:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.editProduct-container .container .card form input[type="text"]::placeholder {
+    color: #969696;
+    font-size: 1.8rem;
+    font-style: italic;
+}
+
+.editProduct-container .container .card form .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.editProduct-container .container .card form .submit {
+    width: 12rem;
+    border-radius: 20px;
+    border: none;
+    padding: 0.4rem;
+    background-color: #302769;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.editProduct-container .container .card form .submit:hover {
+    background-color: #86CEDA;
+}
+
+.editProduct-container .container .card form .cancel {
+    width: 12rem;
+    border-radius: 20px;
+    border: 1px solid #232323;
+    padding: 0.3rem;
+    background-color: inherit;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-left: 30px;
+    color: #232323;
+}
+
+.editProduct-container-dark .container .card-dark form .cancel {
+    border: 1px solid #727272;
+    color: #eceaea;
+}
+
+.editProduct-container .container .card form .cancel:hover {
+    background-color: #ffc72e;
+}
+
+.editProduct-container-dark .container .card-dark form .cancel:hover {
+    background-color: #e0b12e;
+}
+
+.editProduct-container .container .card .error {
+    color: #f44336;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

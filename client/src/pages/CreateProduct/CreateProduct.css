@@ -1,0 +1,233 @@
+.createProduct-container {
+    min-height: calc(100vh - 34px);
+}
+
+.createProduct-container-dark {
+    background-color: #000;
+}
+
+.createProduct-container .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+
+.createProduct-container .container .card-dark {
+    background-color: inherit;
+    color: #eceaea;
+}
+
+.createProduct-container .container .card .heading {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.createProduct-container .container .card form label {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-right: 20px;
+    font-style: normal !important;
+    text-wrap: nowrap;
+}
+
+.createProduct-container .container .card {
+    border: none;
+}
+
+.createProduct-container .container .card .card-body {
+    width: 900px;
+}
+
+.image-characteristics-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-section {
+    width: 100%;
+}
+
+.characteristics-section {
+    width: 100%;
+    margin-top: 10%;
+}
+
+.createProduct-container .container .card form .img-preview {
+    width: 90%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+.createProduct-container .container .card form .remove-image {
+    background: #f44336;
+    border-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    width: 10vw;
+}
+
+.createProduct-container .container .card form .remove-image:hover {
+    background: #c9291e;
+}
+
+.createProduct-container .container .card form input[type="file"] {
+    width: 70%;
+    padding: 0.5rem;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    margin-top: 10px;
+}
+
+.createProduct-container .container .card-dark form input[type="file"] {
+    background-color: #000;
+    color: #eceaea;
+}
+
+.createProduct-container .container .card .form-control {
+    border-radius: 30px;
+}
+
+.createProduct-container .container .card-dark .form-control {
+    background-color: #232323;
+    color: #eceaea;
+}
+
+.createProduct-container .container .card-dark input[type="file"].form-control::-webkit-file-upload-button {
+    background-color: #323232;
+    color: #eceaea;
+}
+  
+.createProduct-container .container .card-dark form .ck-sticky-panel {
+    background-color: #232323;
+    color: #eceaea;
+}
+
+.createProduct-container .container .card-dark .ck.ck-toolbar {
+    background-color: black;
+    color: white;
+}
+
+.createProduct-container .container .card-dark .ck.ck-toolbar .ck-button {
+    color: white;
+    background-color: #000;
+}
+
+.createProduct-container .container .card-dark .ck.ck-dropdown .ck-dropdown__panel {
+    background-color: black;
+    color: white;
+}
+  
+.createProduct-container .container .card form .ck-editor__editable {
+    min-height: 25vh;
+}
+
+.createProduct-container .container .card-dark form .ck-editor__editable {
+    background-color: #232323;
+    color: #eceaea;
+}
+
+.createProduct-container .container .card form input[type="text"] {
+    color: #000;
+    font-size: 2rem;
+    border: none;
+    margin-top: 2rem;
+}
+
+
+.about-author {
+    font-size: 25px !important;
+    margin-top: 30px !important;
+    margin-bottom: 15px !important;
+}
+
+.radio-button .form-check-input {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+    margin-top: 6px;
+}
+  
+.radio-button .form-check-label {
+    font-size: 1.1rem !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+}
+
+
+.mb-31 {
+    margin-top: 3px !important;
+}
+
+.mb-3 {
+ display: flex;
+ align-items: baseline;
+}
+
+.author {
+    border: none !important;
+    margin-top: 0 !important;
+    border: none !important;
+    border-bottom: 1px solid #000 !important;
+    background-color: transparent !important;
+    border-radius: 0% !important;
+    font-size: 1.1rem !important;
+    padding: 0 !important;
+    margin-bottom: 10px !important;
+}
+
+.createProduct-container .container .card-dark .author {
+    border-bottom: 1px solid #eceaea !important;
+}
+
+.createProduct-container .container .card-dark form input[type="text"] {
+    color: #eceaea;
+    background-color: #232323;
+}
+
+.createProduct-container .container .card form input[type="text"]:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.createProduct-container .container .card form input[type="text"]::placeholder {
+    color: #969696;
+    font-size: 1.8rem;
+    font-style: italic;
+}
+
+.form-category-goal {
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.form-category-goal .goal{
+    width: auto;
+}
+
+.createProduct-container .container .card form .submit{
+    width: 12rem;
+    border-radius: 20px;
+    border: none;
+    padding: 0.4rem;
+    background-color: #302769;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.createProduct-container .container .card .error {
+    color: #f44336;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

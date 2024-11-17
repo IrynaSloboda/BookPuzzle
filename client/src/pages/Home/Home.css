@@ -1,0 +1,649 @@
+.categories-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  margin-top: -60px;
+  z-index: 10; /* Елемент, який буде зверху */
+  position: relative; /* Потрібно, щоб 'z-index' працював */
+}
+
+.categories-container-dark {
+  background-color: #000;
+}
+
+.categories-container .category-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5px;
+  font-size: 14px;
+  text-align: center;
+  color: #000;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-wrap: wrap;
+  /*writing-mode: vertical-lr;
+  text-orientation: upright;
+  white-space: nowrap;*/
+  width: 170px;
+  height: 130px;
+}
+
+.categories-container .category-btn-light {
+  background: url("https://res.cloudinary.com/cloud8/image/upload/v1699545288/book-white_poutac.png") !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.categories-container .category-btn-dark {
+  color: #eceaea;
+  background: url("https://res.cloudinary.com/cloud8/image/upload/v1726515005/book-black_wyl2u5.png") !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.categories-container .category-puzzle-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  font-size: 14px;
+  text-align: center;
+  color: #000;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-wrap: wrap;
+  /*writing-mode: vertical-lr;
+  text-orientation: upright;
+  white-space: nowrap;*/
+  width: 170px;
+  height: 130px;
+}
+
+
+.categories-container-light .category-puzzle-btn {
+  background: url("https://res.cloudinary.com/cloud8/image/upload/v1699618817/image_241-removebg-preview_p5bfzo.png") !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.categories-container-dark .category-puzzle-btn {
+  color: #eceaea;
+  background: url("https://res.cloudinary.com/cloud8/image/upload/v1726522096/image_2_jrxlaq.png") !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.genre-btn {
+  margin-left: 10px;
+}
+
+/*
+.category-btn:hover {
+  background-color: #302769;
+}*/
+
+.type-btn1 {
+  max-width: 65px;
+}
+
+.category-btn svg {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px;
+  margin-left: 14px;
+  margin-right: 20px;
+}
+
+.category-btn-dark svg {
+  color: #eceaea !important;
+}
+
+.category-puzzle-btn svg {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px;
+  margin-right: 7px;
+}
+
+.type-btn {
+  border: none;
+  background-color: inherit;
+  margin-bottom: 40px !important;
+}
+
+.type-btn:hover{
+  text-decoration: underline;
+}
+
+.active-book-btn{
+  text-decoration: underline;
+}
+
+.active-puzzle-btn{
+  text-decoration: underline;
+}
+
+.select-options {
+  display: flex;
+  justify-content: center;
+}
+
+.select-options-dark {
+  background-color: #000;
+}
+
+.select-options-dark .type-btn{
+  color: #eceaea;
+}
+
+.sorting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0!important;
+  padding-bottom: 40px;
+}
+
+.sorting-dark {
+  background-color: #000;
+  color: #eceaea;
+}
+
+.sorting-control-dark {
+  background-color: #000;
+  color: #eceaea;
+}
+
+.sorting-control-dark option {
+  background-color: #000;
+  color: #eceaea;
+}
+
+.sorting-control-dark option:checked {
+  background-color: #000;
+  color: #eceaea;
+}
+
+.sorting-control-dark:focus {
+  background-color: #000;
+  color: #eceaea;
+}
+
+
+.products-perPage-dark {
+  background-color: #000;
+  color: #eceaea;
+}
+
+.products-perPage-control-dark {
+  background-color: #000;
+  color: #eceaea;
+}
+
+.products-perPage-control-dark option {
+  background-color: #000;
+  color: #eceaea;
+}
+
+.products-perPage-control-dark option:checked {
+  background-color: #000;
+  color: #eceaea;
+}
+
+.products-perPage-control-dark:focus {
+  background-color: #000;
+  color: #eceaea;
+}
+
+
+.sorting .form-label {
+  margin: 0;
+  margin-right: 10px;
+  font-style: normal !important;
+  font-weight: 600 !important;
+}
+
+.age-sorting .form-label {
+  margin: 0;
+  margin-right: 10px;
+  margin-left: 50px;
+  font-style: normal !important;
+  font-weight: 600 !important;
+}
+
+.books-button {
+  margin-right: 100px;
+  font-style: normal !important;
+  font-weight: 600 !important;
+}
+
+.puzzles-button {
+  margin-left: 100px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+}
+
+.sorting .form-control {
+  width: 200px;
+  height: 40px;
+  padding: 5px;
+  padding-left: 10px;
+  border-radius: 30px;
+}
+
+.age-sorting .form-control {
+  width: 150px;
+  height: 40px;
+  padding: 5px;
+  padding-left: 10px;
+  border-radius: 30px;
+}
+
+.products-perPage  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0!important;
+  padding-bottom: 40px;
+}
+
+.products-perPage .form-control {
+  width: 50px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 30px;
+  text-align: center;
+  background-color: inherit;
+}
+
+
+.products-perPage .form-label {
+  margin: 0;
+  margin-right: 10px;
+  margin-left: 50px;
+  font-style: normal !important;
+  font-weight: 600 !important;
+}
+
+.products-perPage-dark {
+  background-color: #000;
+  color: #eceaea;
+}
+
+.products-perPage-control-dark {
+  background-color: #000;
+  color: #eceaea;
+}
+
+.products-perPage-control-dark option {
+  background-color: #000;
+  color: #eceaea;
+}
+
+.products-perPage-control-dark option:checked {
+  background-color: #000;
+  color: #eceaea;
+}
+
+.products-perPage-control-dark:focus {
+  background-color: #000;
+  color: #eceaea;
+}
+
+.home-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 105px;
+}
+
+.home-container-recommended {
+  background: linear-gradient(to bottom, 
+                              rgba(255, 255, 255, 1), 
+                              rgba(4, 127, 184, 0.2), 
+                              rgba(255, 255, 255, 1));
+  padding-top: 25px;
+}
+
+.home-container-recommended-dark {
+  background: linear-gradient(to bottom, 
+                              rgb(0, 0, 0), 
+                              rgba(1, 43, 62, 0.8), 
+                              rgb(0, 0, 0));
+}
+
+.title-recommended {
+  text-align: center;
+  background: rgba(255, 255, 255, 1);
+  font-style: italic;
+}
+
+.title-recommended h2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.title-recommended-dark {
+  background-color: #000;
+  color: #e2e0e0;
+}
+
+.space-recommended {
+  padding-bottom: 40px;
+  background-color: #fff;
+  color: #fff;
+}
+
+
+.space-recommended-dark {
+  background-color: #000;
+  color: #000;
+}
+
+.home-container-dark {
+  background-color: #000;
+}
+
+.home-container .no-products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 70px;
+  margin-top: 40px;
+}
+
+.home-container .no-products .create-first{
+  font-size: 24px;
+}
+
+.home-container .no-products .create-first-title-dark{
+  color: #ffffff;
+}
+
+.home-container .no-products .create-first-dark{
+  color: #ffffff;
+}
+
+.home-container .home-product {
+  width: 210px;
+  margin-bottom: 50px;
+  margin-left: 15px;
+}
+
+/*
+.home-container-dark .home-product-dark {
+  background-color: #232323;
+}*/
+
+.home-product .home-product-img {
+  width: 210px;
+  height: 210px;
+  object-fit: contain;
+  background-color: inherit;
+  border-radius: 30px;
+}
+
+.home-product .home-product-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-product-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.home-product-title-dark {
+  color: #e2e0e0;
+}
+
+.home-product-title:hover {
+  color:  #86CEDA;
+}
+
+.home-product-author-date {
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+}
+
+.home-product-content {
+  font-family: "Varela Round", sans-serif;
+  font-size: 14px;
+  color: #444;
+  line-height: 24px;
+  margin-top: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.home-product-content-dark {
+  color: #eceaea;
+}
+
+.home-product-content-dark a {
+  color: rgb(89, 170, 251);
+}
+
+.home-container .home-product-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 5px;
+  padding: 0 15px;
+  padding-bottom: 10px;
+}
+
+.home-container .items {
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.home-container .items span {
+  margin-right: 15px;
+}
+
+
+.home-product-items-light {
+  color: #181717;
+}
+
+.home-product-items-dark {
+  color: #eceaea;
+}
+
+.home-product-items span{
+  padding-right: 1.7rem;
+}
+
+.home-product-bottom {
+  display: flex;
+  margin-top: 5px;
+}
+
+.home-product-right-bottom {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.home-product-right-bottom-dark {
+  color: #eceaea
+}
+
+.home-product-category {
+  display: flex;
+  align-items: center;
+}
+
+.home-product-category span:first-child {
+  margin-right: 10px;
+}
+
+.home-product-right-bottom svg {
+  height: 23px;
+  width: 23px;
+  padding-bottom: 3px;
+}
+
+.home-product-right-bottom .home-product-category svg {
+  height: 25px;
+  width: 25px;
+  margin-right: 8px;
+}
+
+.category-span {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.react-pagination-js-light-theme {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.react-pagination-js-light-theme ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+  
+.react-pagination-js-light-theme li {
+  list-style: none;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #302769;
+  display: inline-block;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  cursor: pointer;
+  background-color: inherit;
+}
+
+.react-pagination-js-light-theme li:first-child {
+  font-weight: 1000;
+  display: inline-block;
+}
+
+.react-pagination-js-light-theme li:last-child {
+  font-weight: 1000;
+}
+
+.react-pagination-js-dark-theme li:first-child {
+  font-weight: 1000;
+}
+
+.react-pagination-js-dark-theme li:last-child {
+  font-weight: 1000;
+}
+
+.arrows svg {
+  vertical-align: middle;
+  padding-bottom: 3px;
+}
+
+.react-pagination-js-dark-theme {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  background-color: #000;
+  color: #eceaea;
+}
+
+.react-pagination-js-dark-theme ul{
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.react-pagination-js-dark-theme li {
+  list-style: none;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  display: inline-block;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  cursor: pointer;
+  background-color: inherit;
+}
+
+.react-pagination-js-light-theme li.is-active {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.react-pagination-js-light-theme li:hover {
+  text-decoration: underline;
+}
+
+.react-pagination-js-light-theme li:first-child:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.react-pagination-js-dark-theme li:first-child:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.react-pagination-js-light-theme li:last-child:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.react-pagination-js-dark-theme li:last-child:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+  
+.react-pagination-js-dark-theme li.is-active {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.react-pagination-js-dark-theme li:hover {
+  text-decoration: underline;
+}
+
+.react-pagination-js-dark-theme li {
+color: #fff;
+}

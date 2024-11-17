@@ -1,0 +1,160 @@
+/*.signup-wrapper-light {
+    background: url("https://res.cloudinary.com/cloud8/image/upload/v1681731418/Frame_76_1_jna7ii.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.signup-wrapper-dark {
+    background: url("https://res.cloudinary.com/cloud8/image/upload/v1681731575/Frame_78_avdgdq.png");
+    background-size: cover;
+    background-position: center;
+}*/
+
+.signup-wrapper-dark {
+    background-color: #000;
+}
+
+.signup-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(97vh - 34px);
+    padding: 50px;
+}
+
+.secretQ {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+}
+
+.secretQ .form-label {
+    font-weight: 600;
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+}
+
+.position-relative {
+    margin-bottom: 5px !important;
+}
+
+.signup-container .card{
+    width: 33rem;
+    padding: 0 20px;
+    border: 1px solid #434244;
+    border-radius: 20px;
+    background-color: inherit;
+}
+
+.signup-container .card .card-title{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.signup-container .card .card-title-light {
+    color: #343335;
+}
+
+.signup-container .card .card-title-dark {
+    color: #eceaea;
+}
+
+.signup-container .card-light .form-control{
+    border: 0.1px solid #363636;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px 0 5px 0;
+}
+
+.signup-container .card-dark .form-control{
+    background-color: #000;
+    color: #eceaea;
+    border: 0.03rem solid #7b7b7b;
+    padding: 10px;
+    margin: 5px 0 5px 0;
+}
+
+.signup-container .card-dark .form-control::placeholder{
+    color: #eceaea;
+}
+
+.signup-container .form-control {
+    border-radius: 1rem;
+}
+
+.signup-container .card form button{
+    background-color: #302769;
+    width: 15vw;
+    color: #ffffff;
+    border-radius: 12px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-color: #302769;
+    margin: 10px 0;
+    border-radius: 20px;
+}
+
+.arrow-icon {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 64%;
+    right: 45px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+  
+.form-label {
+    font-weight: 700;
+    font-style: italic;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+
+.secretQ-label {
+    margin-left: 6px !important;
+}
+
+.form-label-dark {
+    color: #eceaea;
+}
+
+.signup-container .card form button:hover{
+    background-color: #86CEDA;
+    color: #000;
+}
+
+.signup-container .card .error p{
+    color: #c93c23;
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 2vh;
+}
+
+.already-registered {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.8rem;
+    margin-top: -10px;
+}
+    
+.already-registered-question {
+    margin-right: -7px;
+    margin-left: 12px;
+}
+
+.already-registered-question-dark {
+    color: #fff;
+}
+    
+.already-registered .nav-ink {
+    white-space: nowrap;
+}
